@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--
+    This file is an updated version of the original portfolio homepage found at
+    https://ujjwal‑portfolio‑backend‑2025.netlify.app.  Only text/content
+    values were changed to match the details contained in the user's latest
+    résumé.  The overall structure, classes and references to CSS/JS assets
+    remain untouched to preserve the existing UI/UX.  If you wish to deploy
+    this updated page, replace your current index.html with this file and
+    ensure the accompanying assets directory (./assets) is present in the
+    deployment.
+  -->
+
+<head>
+    <meta charset="UTF-8">
+    <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- retain original CSS and font references -->
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/kse0maf.css">
+
+    <!-- Primary Meta Tags: updated to reflect full‑stack role and résumé summary -->
+    <title>Ujjwal Tiwari | Full Stack Developer</title>
+    <meta name="title" content="Ujjwal Tiwari | Full Stack Developer">
+    <meta name="keywords" content="Ujjwal Tiwari, Full Stack Developer, Java, Spring Boot, Angular, React, Next.js, REST APIs, Microservices, AWS, MySQL, PostgreSQL, MongoDB, Redis, Prisma ORM, TailwindCSS, Bengaluru">
+    <meta name="description" content="Motivated engineering graduate with strong Java programming skills and a passion for full‑stack development. Experienced in Java, Spring Boot, Angular, React, Next.js and cloud technologies. Delivers scalable and secure web applications from front to back.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:title" content="Ujjwal Tiwari | Full Stack Developer">
+    <meta property="og:description" content="Motivated engineering graduate with a passion for full‑stack development using Java, Spring Boot, Angular, React and modern cloud technologies.">
+    <meta property="og:image" content="/assets/img/seo-img.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="#">
+    <meta property="twitter:title" content="Ujjwal Tiwari | Full Stack Developer">
+    <meta property="twitter:description" content="Building clean and scalable full‑stack solutions using Java, Spring Boot, Angular, React and cloud platforms.">
+    <meta property="twitter:image" content="https://israelmitolu.netlify.app/assets/img/seo-img.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+    <!-- Google Verification tag -->
+    <meta name="google-site-verification" content="KOQzvRehV2wImo6OJO8Iem8SXZknToV3QZgqPGLNo2c">
+</head>
+
+<body class="body-wrap">
+    <!-- Intro section with headline remains unchanged -->
+    <div class="intro">
+      <div class="intro-text">
+        <h2 class="hide">
+          <span class="text">Creating innovations</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">For Everyday</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">people.</span>
+        </h2>
+      </div>
+      <button class="intro-btn" onclick="fadeOut()">EXPLORE</button>
+    </div>
+    <div class="slider"></div>
+    <div class="slider-2"></div>
+
+    <!-- custom mouse-->
+    <div class="cursor-effect"></div>
+
+    <!-- content -->
+    <div class="content">
+      <!-- Header Section -->
+      <header>
+        <!-- decorative shapes preserved -->
+        <div class="effect-wrap">
+          <div class="effect effect-1" style="opacity: 0;"></div>
+          <div class="effect effect-2" style="opacity: 0;">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+          </div>
+          <div class="effect effect-3" style="opacity: 0;"></div>
+          <div class="effect effect-4" style="opacity: 0;">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+          </div>
+        </div>
+        <a aria-label="Home" class="logo" href="/">
+          <img src="./assets/img/favicon.svg" alt="Logo">
+        </a>
+
+        <!-- greeting text and call to action updated -->
+        <div class="inner" style="opacity: 0;">
+          <!-- Display the first initial of my name -->
+          <span>U</span>
+          <h1>Hello 👋</h1>
+          <p>
+            Thanks for visiting my portfolio website! If you like what you see
+            and you need a <strong>full stack developer</strong> to work on a product, send me a
+            <a href="#contact">message</a>.
+          </p>
+        </div>
+
+        <div class="toggle-container">
+          <input type="checkbox" id="switch" name="theme"><label class="toggle" for="switch">Toggle</label>
+        </div>
+
+        <!-- landing text updated to emphasise full‑stack focus -->
+        <div class="landing-text">
+          <h1 style="opacity: 0;">Ujjwal&nbsp;Tiwari</h1>
+          <p>My approach to full‑stack development is simple: <i>write clean, scalable and secure code.</i></p>
+        </div>
+      </header>
+
+      <main>
+        <!-- About Section -->
+        <section class="about" id="about">
+          <div class="container">
+            <div class="profile-img">
+              <!-- retains original image path -->
+              <img src="./assets/img/ujjwal-profile.jpg" alt="Ujjwal Tiwari">
+            </div>
+            <div class="about-content">
+              <div class="about-heading">
+                <h2>About Me</h2>
+              </div>
+              <!-- Custom biography matching résumé summary -->
+              <p>
+                Hello there, I'm <strong>Ujjwal&nbsp;Tiwari</strong>—a motivated and detail‑oriented
+                engineering graduate with strong Java programming skills and a passion
+                for <strong>full‑stack development</strong>. I have experience building
+                end‑to‑end web applications, collaborating with cross‑functional teams,
+                and delivering high‑quality code within challenging deadlines.
+                <br><br>
+                My toolkit spans both frontend and backend technologies: I design and
+                implement robust RESTful APIs and microservices using Java and
+                Spring&nbsp;Boot; craft dynamic user interfaces with Angular and React;
+                and work with relational and NoSQL databases like MySQL, PostgreSQL,
+                MongoDB and Redis. I'm also familiar with cloud platforms such as
+                AWS&nbsp;(ECS, EKS, EC2, S3), containerization with Docker and
+                Kubernetes, CI/CD pipelines, and tools like Kafka, Prisma ORM,
+                TailwindCSS and Framer Motion.
+                <br><br>
+                When I'm not coding, you'll find me exploring new technologies,
+                contributing to open‑source projects, or honing my problem‑solving
+                skills through data‑structures and algorithms. I'm always eager to
+                collaborate and learn from others, so feel free to reach out!
+              </p>
+
+              <div class="about-cta">
+                <a href="#contact" class="skills-cta">Hire me</a>
+                <span>—</span>
+                <a href="./about/" class="exp-cta">More about me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+          <div class="container">
+            <div class="services-content">
+              <div class="services-heading">
+                <h2 style="opacity: 0; transform: translate(0px, 300px);">My Services</h2>
+              </div>
+            </div>
+            <div class="service-item-container">
+              <!-- Service: Full Stack Development -->
+              <div class="service-item">
+                <ion-icon name="server-outline"></ion-icon>
+                <h5>Full Stack Development</h5>
+                <p>
+                  I design and build complete web applications using Java &amp; Spring&nbsp;Boot on the backend
+                  and Angular/React/Next.js on the frontend. My focus is on writing clean,
+                  maintainable code that scales with your business.
+                </p>
+              </div>
+              <!-- Service: Database & Cloud Solutions -->
+              <div class="service-item">
+                <ion-icon name="cube-outline"></ion-icon>
+                <h5>Database &amp; Cloud Solutions</h5>
+                <p>
+                  I work with relational (MySQL, PostgreSQL) and NoSQL (MongoDB, Redis) databases,
+                  designing robust schemas, optimizing queries and ensuring data integrity. I also
+                  deploy applications to cloud platforms like AWS (ECS, EKS, EC2, S3) and integrate
+                  containerization technologies.
+                </p>
+              </div>
+              <!-- Service: Microservices & DevOps -->
+              <div class="service-item">
+                <ion-icon name="rocket-outline"></ion-icon>
+                <h5>Microservices &amp; DevOps</h5>
+                <p>
+                  I architect microservices solutions, implement message brokers like Kafka,
+                  containerize applications using Docker &amp; Kubernetes, and set up CI/CD pipelines for
+                  seamless deployment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="projects" class="project">
+          <h5>— check out some </h5>
+          <h2>Stuff I’ve worked on 💻</h2>
+          <div class="project-item-container">
+            <!-- Project 1: StitchPF -->
+            <div class="project-box">
+              <a href="https://stitch-8xo5k2lkh-ujjwal02tiwari-rgbs-projects.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/ujjwal02tiwari-rgb" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://stitch-8xo5k2lkh-ujjwal02tiwari-rgbs-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3>StitchPF – Profile Generator Web App</h3>
+                <h5>Next.js&nbsp;14 &nbsp; TypeScript &nbsp; TailwindCSS &nbsp; Prisma&nbsp;ORM &nbsp; SQLite</h5>
+              </div>
+            </div>
+
+            <!-- Project 2: Neural Net Studio -->
+            <div class="project-box">
+              <a href="https://neural-netwroks-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/ujjwal02tiwari-rgb" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://neural-netwroks-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3>Neural Net Studio – Interactive Trainer</h3>
+                <h5>Next.js &nbsp; React &nbsp; TypeScript &nbsp; TailwindCSS &nbsp; SSE/WebSocket</h5>
+              </div>
+            </div>
+
+            <!-- Additional template projects remain hidden -->
+            <div class="project-box" style="display:none;">
+              <a href="https://practical-faith.mitolu.dev/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/Practical-Faith" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://practical-faith.mitolu.dev/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3>Practical Faith</h3>
+                <h5>React.js &nbsp; Tailwind CSS &nbsp; Shadcn UI React Query </h5>
+              </div>
+            </div>
+            <div class="project-box" style="display:none;">
+              <a href="https://weirdos-nft.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/The-Weirdos-NFT" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://weirdos-nft.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3> Weirdos NFT </h3>
+                <h5>React.js &nbsp; Styled components &nbsp; GSAP</h5>
+              </div>
+            </div>
+            <div class="project-box" style="display:none;">
+              <a href="https://finance.mitolu.dev/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/finance-tracker" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://finance.mitolu.dev/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3> Finance Tracker </h3>
+                <h5>React.js &nbsp; Typescript &nbsp; Tailwind CSS &nbsp; Recharts</h5>
+              </div>
+            </div>
+            <div class="project-box" style="display:none;">
+              <a href="https://fisayofosudo.netlify.app" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/fisayo-fosudo" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://fisayofosudo.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3> Fisayo Fosudo </h3>
+                <h5>HTML/SCSS &nbsp; JS &nbsp; GSAP</h5>
+              </div>
+            </div>
+            <div class="project-box" style="display:none;">
+              <a href="https://mitolu.dev" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/premier-portfolio" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://mitolu.dev" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3> israelmitolu </h3>
+                <h5>HTML/SCSS &nbsp; JS &nbsp; GSAP</h5>
+              </div>
+            </div>
+            <div class="project-box" style="display:none;">
+              <a href="https://digitaly.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box__absolute-link"></a>
+              <div class="project-box__link">
+                <a href="https://github.com/israelmitolu/Digitaly" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://digitaly.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="open-outline"></ion-icon>
+                </a>
+              </div>
+              <div class="project-box__content">
+                <h3>Digitaly</h3>
+                <h5>React.js &nbsp; Tailwind CSS &nbsp; Framer motion</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contacts -->
+        <section class="contact" id="contact">
+          <div class="contact-title">
+            <h5>— contact me</h5>
+            <h2>🚀Let's collaborate </h2>
+          </div>
+          <div class="container">
+            <div class="sub">
+              Got a question, proposal or project or want to work <br>
+              together on something? Feel free to reach out.
+            </div>
+            <!-- Netlify form retained -->
+            <form action="POST" data-netlify="true">
+              <div class="input-row">
+                <div class="side"><label for="name">Your Name</label><input placeholder="Enter Your name" name="name" id="name" type="text" required value=""></div>
+                <div class="side"><label for="email">Your Email</label><input placeholder="Enter Your email address" name="email" id="email" type="email" required value=""></div>
+              </div>
+              <div class="textarea">
+                <label for="message">Your Message</label><textarea name="message" id="message" placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can" required></textarea>
+              </div>
+              <button type="submit">Send Message.</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <hr>
+        <div class="footer-head">
+          <h5>Say Hello</h5>
+          <div class="link-container">
+            <!-- contact information updated to match résumé -->
+            <div class="footer-links">
+              <p>
+                <a data-text="wa.me/ujjwaltiwari" href="https://wa.me/918356868701" target="_blank" rel="noopener noreferrer">wa.me/ujjwaltiwari</a>
+              </p>
+              <p>
+                <a data-text="ujjwal02tiwari@gmail.com" href="mailto:ujjwal02tiwari@gmail.com">ujjwal02tiwari@gmail.com</a>
+              </p>
+            </div>
+            <div class="footer-links">
+              <p><a href="https://github.com/ujjwal02tiwari-rgb" target="_blank" rel="noopener noreferrer">GH</a></p>
+              <p><a href="https://www.linkedin.com/in/ujjwaltiwari02/" target="_blank" rel="noopener noreferrer">LN</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copy"> © Ujjwal Tiwari 2025</div>
+      </footer>
+    </div>
+
+    <!-- Ionicons imports and app script references remain unchanged -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
