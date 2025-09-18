@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Ujjwal Tiwari</title>
+    <!-- Link to the same stylesheet and favicon as the main site. The paths
+         are relative to the about directory which will live under assets/. -->
+    <link rel="stylesheet" href="../css/styles.min.css" />
+    <link rel="icon" type="image/svg+xml" href="../img/favicon.svg" />
+  </head>
+  <body>
+    <!-- Simple logo linking back to the home page -->
+    <a href="../../index.html" class="logo">
+      <img src="../img/favicon.svg" alt="Home" />
+    </a>
+
+    <!-- Main About Section -->
+    <section class="more-about" id="about">
+      <div class="container">
+        <h2>About <span>Me</span></h2>
+        <div class="more-about-content">
+          <!-- Profile Image -->
+          <div class="more-about-img">
+            <img src="../img/ujjwal-profile.jpg" alt="Ujjwal Tiwari" />
+          </div>
+          <!-- Textual content -->
+          <div class="more-about-text">
+            <p>
+              Hello there, I'm <strong>Ujjwal Tiwari</strong>—a motivated and
+              detail‑oriented engineering graduate with strong Java programming skills
+              and a passion for full‑stack development. I have experience building
+              end‑to‑end web applications, collaborating with cross‑functional teams,
+              and delivering high‑quality code within challenging deadlines.
+            </p>
+            <p>
+              My toolkit spans both frontend and backend technologies: I design and
+              implement robust RESTful APIs and microservices using <strong>Java</strong>
+              and <strong>Spring Boot</strong>; craft dynamic user interfaces with
+              <strong>Angular</strong> and <strong>React</strong>; and work with
+              relational and NoSQL databases like <strong>MySQL</strong>,
+              <strong>PostgreSQL</strong>, <strong>MongoDB</strong> and
+              <strong>Redis</strong>. I'm also familiar with cloud platforms such as
+              <strong>AWS</strong> (ECS, EKS, EC2, S3), containerization with
+              <strong>Docker</strong> and <strong>Kubernetes</strong>, CI/CD pipelines,
+              and tools like Kafka, Prisma ORM, TailwindCSS and Framer Motion.
+            </p>
+            <p>
+              When I'm not coding, you'll find me exploring new technologies,
+              contributing to open‑source projects, or honing my problem‑solving skills
+              through data‑structures and algorithms. I'm always eager to
+              collaborate and learn from others, so feel free to reach out!
+            </p>
+            <!-- Skills as small badges -->
+            <div class="skills">
+              <div class="skill-item">Java</div>
+              <div class="skill-item">Spring Boot</div>
+              <div class="skill-item">Angular</div>
+              <div class="skill-item">React</div>
+              <div class="skill-item">MySQL</div>
+              <div class="skill-item">PostgreSQL</div>
+              <div class="skill-item">MongoDB</div>
+              <div class="skill-item">Redis</div>
+              <div class="skill-item">AWS</div>
+              <div class="skill-item">Docker</div>
+              <div class="skill-item">Kubernetes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="more-about" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>
+          <strong>StitchPF – Profile Generator Web App:</strong> A full‑stack web
+          application that allows users to design and share customizable profile
+          pages with live previews and modern UI/UX. I designed and developed the
+          application using Next.js 14 with App Router and TypeScript, built
+          dynamic profile creation with avatar uploads, themes and real‑time
+          previews powered by Framer Motion animations, implemented robust input
+          validation using Zod and integrated Prisma ORM for secure data storage.
+          The app was deployed on Vercel for scalability and ease of sharing.
+        </p>
+        <p>
+          <strong>Neural Net Studio – Interactive Neural Network Trainer:</strong>
+          A frontend application to visualize and experiment with neural network
+          training in real time. I built a real‑time dashboard using Next.js
+          with SSE/WebSocket integration to stream metrics, implemented
+          hyperparameter configuration UI with live updates, designed
+          interactive charts with rolling windows and downsampling for smooth
+          visualization, added light/dark theme support, and deployed the app on
+          Vercel.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education & Achievements Section -->
+    <section class="more-about" id="education">
+      <div class="container">
+        <h2>Education &amp; Achievements</h2>
+        <div class="tab-content active">
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="date">Dec 2021 – Oct 2025</span>
+              <h4>M.S. Ramaiah Institute of Technology – Bachelor of Engineering</h4>
+            </div>
+            <div class="timeline-item">
+              <span class="date">Apr 2019 – Apr 2020</span>
+              <h4>L.B.S Senior Secondary School, Rajasthan – Higher Secondary</h4>
+            </div>
+            <div class="timeline-item">
+              <span class="date">Apr 2017 – Apr 2018</span>
+              <h4>B.K Birla Public School – Secondary School</h4>
+            </div>
+          </div>
+          <h4>Achievements</h4>
+          <ul>
+            <li>Captain of college cricket team – led the team to victory in
+              the VTU inter‑college tournaments.</li>
+            <li>Organized and hosted multiple college events/fests – handled
+              event planning and logistics.</li>
+            <li>Volunteered for college‑level NSS/NCC initiatives – participated
+              in community development, blood donation drives and awareness
+              campaigns.</li>
+            <li>Class Representative for 2 years – acted as the liaison between
+              faculty and students, managing schedules, feedback and academic
+              communication.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Social Links Section -->
+    <section class="more-about" id="contact-links">
+      <div class="container">
+        <h2>Connect with Me</h2>
+        <p>You can find me on the following platforms:</p>
+        <ul>
+          <li><a href="https://github.com/ujjwal02tiwari-rgb" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ujjwaltiwari02/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://leetcode.com/u/Ujjwal-rgb/" target="_blank">LeetCode</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="more-about" id="resume">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>
+          Want to know more? Feel free to download my resume to explore my
+          experiences in detail.
+        </p>
+        <div class="about-cta">
+          <a href="Ujjwal_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Include the site’s JavaScript for interactive effects -->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
